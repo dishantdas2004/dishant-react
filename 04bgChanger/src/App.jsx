@@ -1,6 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
@@ -29,5 +27,7 @@ function App() {
     </div>
   );
 }
+
+// in react we can write inline css in {{}} format. Here backgroundColor is a css Property written in react syntax
 
 export default App;
